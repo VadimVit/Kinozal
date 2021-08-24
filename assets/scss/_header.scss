@@ -2,7 +2,9 @@
 @use "mixins" as *;
 
 
-.header {}
+.header {
+    margin-bottom: $gap-xl;
+}
 
 .header-logo {
 
