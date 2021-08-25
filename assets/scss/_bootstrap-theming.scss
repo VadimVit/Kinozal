@@ -78,10 +78,10 @@
     }
 
     &:last-of-type {
-      margin-bottom: none;
+      margin-bottom: 0;
     }
 
-    &.panel-heading {
+    & > .panel-heading {
       letter-spacing: 0.08em;
 
       color: $color-white;
@@ -96,4 +96,13 @@
     border: 1px solid $color-gray;
     border-radius: 0 0 4px 4px;
   }
+}
+
+.input-lg,
+.input-group-lg > .form-control {
+  font-size: 0.875rem;
+}
+
+.thumbnail {
+  transition: background-color 0.25s;
 }
